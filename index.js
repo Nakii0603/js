@@ -1,7 +1,10 @@
 // Academy303
+
+
 // let tsag = 55;
 // let honog = 24 ;
 // console.log((tsag / honog).toFixed(0));
+
 
 // let i = 0;
 // while(i <= 10){
@@ -62,8 +65,6 @@
 
 // let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let i = 0;
-
-
 // let array = [1, 2, 3, 4, 5]
 // let reversedArray = []
 // for(let i = array.length - 1; i >= 0; i--) {
@@ -79,22 +80,28 @@
 //     i++
 // }
 
-let array = [1, 2, 3, 4, 5];
-let str = ""
-for (let i = 0; i < array.length; i++) {
-    for (let h = 0; h <= h + 1; h++) {
-        str = str +array [h]
+// let array = [1, 2, 3, 4, 5];
+// let str = ""
+// for (let i = 0; i < array.length; i++) {
+//     for (let h = 0; h <= h + 1; h++) {
+//         str = str +array [h]
+//     }
+//     console.log(str);
+//     str = ""
+// }
+
+
+// function console haanch duudaj bolnoo
+
+let arr = [2,7,3,6], t = 10;
+function twoSum(array, target) {
+    for (let i = 0; i < array.length; i++) {
+        for (let u = i + 1; u < array.length; u++) {
+            let s = array[i] + array[u];
+            if (s == target) {
+                return [i,u]
+            }
+        } 
     }
-    console.log(str);
-    str = ""
 }
-
-
-
-
-
-
-
-
-
-
+console.log(twoSum(arr,t));
