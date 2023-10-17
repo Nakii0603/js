@@ -1,10 +1,8 @@
 // Academy303
 
-
 // let tsag = 55;
 // let honog = 24 ;
 // console.log((tsag / honog).toFixed(0));
-
 
 // let i = 0;
 // while(i <= 10){
@@ -12,11 +10,9 @@
 //    i=i+2;
 // }
 
-
 // for (i=1 ; i <= 100 ; i++){
 //     console.log(i)
 // }
-
 
 // let num = 2;
 // let zerg = 5;
@@ -26,10 +22,8 @@
 // }
 // console.log(sum);
 
-
 // for (let a = 1; a <= 100; a = a + 1) {
 // }
-
 
 // let sum = 0;
 // for (let i = 0;i <= 10; i++) {
@@ -45,7 +39,6 @@
 //     console.log(sum)
 // }
 
-
 // let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let i = 0;
 // while (i < num.length) {
@@ -54,14 +47,12 @@
 //     i++
 // }
 
-
 // let blance = [1000 , 2000 , 2500 , 32442 , 5342];
 // let i = 0;
 // while (i < blance.length){
 //     console.log(blance[i] * 1.15)
 //     i++
 // }
-
 
 // let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let i = 0;
@@ -72,7 +63,6 @@
 //   reversedArray.push(valueAtIndex)
 // }
 // console.log(reversedArray)
-
 
 // while  (i < num.length) {
 //     // console.log('Element at index ' + i + " is " + num[i])
@@ -90,18 +80,23 @@
 //     str = ""
 // }
 
-
 // function console haanch duudaj bolnoo
 
-let arr = [2,7,3,6], t = 10;
-function twoSum(array, target) {
-    for (let i = 0; i < array.length; i++) {
-        for (let u = i + 1; u < array.length; u++) {
-            let s = array[i] + array[u];
-            if (s == target) {
-                return [i,u]
-            }
-        } 
-    }
-}
-console.log(twoSum(arr,t));
+// let arr = [2,7,3,6], t = 10;
+// function twoSum(array, target) {
+//     for (let i = 0; i < array.length; i++) {
+//         for (let u = i + 1; u < array.length; u++) {
+//             let s = array[i] + array[u];
+//             if (s == target) {
+//                 return [i,u]
+//             }
+//         }
+//     }
+// }
+// console.log(twoSum(arr,t));
+
+// let numArray = [140, 104, 99, 43, 4654, 346];
+// numArray.sort(function (a, b) {
+//   return b - a;
+// });
+// console.log(numArray);
