@@ -95,8 +95,17 @@
 // }
 // console.log(twoSum(arr,t));
 
-// let numArray = [140, 104, 99, 43, 4654, 346];
+// let numArray = [140, 104, 99, 43, 11, 22, 4654, 346];
 // numArray.sort(function (a, b) {
 //   return b - a;
 // });
 // console.log(numArray);
+
+//              param
+// const twoSum = (a, b) => {
+//   console.log(a + b);
+// };
+// //      arg
+// twoSum(1, 5);
+// const btn = document.getElementsByTagName("button");
+
