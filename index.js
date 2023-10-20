@@ -29,7 +29,7 @@
 // for (let i = 0;i <= 10; i++) {
 //     if (i % 2  == 0)
 //         continue;
-//     sum = sum + i
+//     sum = sum + 
 // }
 // console.log(sum)
 
@@ -109,5 +109,35 @@
 // twoSum(1, 5);
 // const btn = document.getElementsByTagName("button");
 
+// let ner = "saraa";
+// let age = 1;
+// let who;
+// if (age >= 18) {
+//   who = "man";
+//   console.log("asd");
+//   who === "man"
+//     ? console.log(ner + "orj bolnooo")
+//     : console.log(ner + " orj bolohguie");
+// } else {
+//   who = "child";
+// }
+// who === "man"
+//   ? console.log(ner + "orj bolnooo")
+//   : console.log(ner + " orj bolohguie");
 
 
+let dun = 101
+
+switch (true) {
+    case dun > 100: console.log("dun buruu bn"); 
+        break
+    case dun >= 90 && dun <= 100: console.log('A+');
+        break
+    case dun < 89 && dun >= 80: console.log('B');
+        break
+    case dun < 79 && dun >= 70: console.log('C');
+        break
+    case dun < 70: console.log('F');
+        break
+        
+}
