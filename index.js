@@ -126,7 +126,7 @@
 //   : console.log(ner + " orj bolohguie");
 
 
-let dun = 101
+let dun = 46
 
 switch (true) {
     case dun > 100: console.log("dun buruu bn"); 
@@ -141,3 +141,4 @@ switch (true) {
         break
         
 }
+h1
