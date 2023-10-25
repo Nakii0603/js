@@ -138,15 +138,35 @@
 //         break
 //     case dun < 70: console.log('F');
 //         break
-
 // }
-var module = function (number) {
-    console.log("goodwok");
-}
 
-function mod(number) {
-    console.log("work");
-    
-}
-module(-224)
-mod(345)
+
+// var module = function (number) {
+//     console.log("goodwok");
+// }
+
+// function mod(number) {
+//     console.log("work");
+// }
+// module(-224)
+// mod(345)
+
+// let a = {
+//     name: "html ",
+//     less: "312999",
+//     min: 231,
+//     info: function () {
+//         console.log(this.name + "surgalt n" + this.less + " untei bna");
+//     },
+//     hour: function () {
+//         return Math.round(this.min / 60);
+//     },
+//     comMin: function () {
+//         return this.min % 60;
+//     }
+// }
+// console.log(a.name + ' enhuu surgalt n' + ' ' + a.hour() + ' ' + 'tsag' + ' ' + a.comMin() + 'min surgalt bnaa');
+let hel = ['angil','german','dv','vsd'];
+console.log(hel);
+console.log(hel[1]);
+console.log(hel.indexOf('dv'));
