@@ -29,7 +29,7 @@
 // for (let i = 0;i <= 10; i++) {
 //     if (i % 2  == 0)
 //         continue;
-//     sum = sum + 
+//     sum = sum +
 // }
 // console.log(sum)
 
@@ -125,20 +125,28 @@
 //   ? console.log(ner + "orj bolnooo")
 //   : console.log(ner + " orj bolohguie");
 
+// let dun = 46
 
-let dun = 46
+// switch (true) {
+//     case dun > 100: console.log("dun buruu bn");
+//         break
+//     case dun >= 90 && dun <= 100: console.log('A+');
+//         break
+//     case dun < 89 && dun >= 80: console.log('B');
+//         break
+//     case dun < 79 && dun >= 70: console.log('C');
+//         break
+//     case dun < 70: console.log('F');
+//         break
 
-switch (true) {
-    case dun > 100: console.log("dun buruu bn"); 
-        break
-    case dun >= 90 && dun <= 100: console.log('A+');
-        break
-    case dun < 89 && dun >= 80: console.log('B');
-        break
-    case dun < 79 && dun >= 70: console.log('C');
-        break
-    case dun < 70: console.log('F');
-        break
-        
+// }
+var module = function (number) {
+    console.log("goodwok");
 }
-h1
+
+function mod(number) {
+    console.log("work");
+    
+}
+module(-224)
+mod(345)
