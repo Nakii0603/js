@@ -140,7 +140,6 @@
 //         break
 // }
 
-
 // var module = function (number) {
 //     console.log("goodwok");
 // }
@@ -166,7 +165,35 @@
 //     }
 // }
 // console.log(a.name + ' enhuu surgalt n' + ' ' + a.hour() + ' ' + 'tsag' + ' ' + a.comMin() + 'min surgalt bnaa');
-let hel = ['angil','german','dv','vsd'];
-console.log(hel);
-console.log(hel[1]);
-console.log(hel.indexOf('dv'));
+
+// let hel = ['angil','german','dv','vsd'];
+// console.log(hel);
+// console.log(hel[1]);
+// console.log(hel.indexOf('dv'));
+
+// function a(name, job) {
+//   console.log("hello" + name + job);
+// }
+// a("Bat", "IT");
+
+// function oneClickPlus(value1, value2) {
+//     return value1 + value2;
+//   }
+
+// console.log(oneClickPlus(3, 5));
+
+let input1 = document.createElement("input");
+let input2 = document.createElement("input");
+let button = document.createElement("button");
+let result = document.createElement("div");
+button.className = "btn";
+document.body.appendChild(input1);
+document.body.appendChild(input2);
+document.body.appendChild(button);
+document.body.appendChild(result);
+
+function plus() {
+  result.innerText = parseInt(input1.value) + parseInt(input2.value);
+}
+
+button.onclick = plus;
