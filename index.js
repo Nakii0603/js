@@ -182,18 +182,34 @@
 
 // console.log(oneClickPlus(3, 5));
 
+// let input1 = document.createElement("input");
+// let input2 = document.createElement("input");
+// let button = document.createElement("button");
+// let result = document.createElement("div");
+// button.innerText = "="
+// button.className = "btn";
+// document.body.appendChild(input1);
+// document.body.appendChild(input2);
+// document.body.appendChild(button);
+// document.body.appendChild(result);
+
+// function plus() {
+//   result.innerText = parseInt(input1.value) + parseInt(input2.value);
+// }
+
+// button.onclick = plus;
+
 let input1 = document.createElement("input");
 let input2 = document.createElement("input");
 let button = document.createElement("button");
 let result = document.createElement("div");
+button.innerText = "=";
 button.className = "btn";
 document.body.appendChild(input1);
 document.body.appendChild(input2);
 document.body.appendChild(button);
 document.body.appendChild(result);
-
 function plus() {
-  result.innerText = parseInt(input1.value) + parseInt(input2.value);
+  result.innerText = parseInt(input1.value)+parseInt(input2.value);
 }
-
 button.onclick = plus;
