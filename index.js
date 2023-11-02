@@ -205,3 +205,7 @@
 //   body.style.backgroundColor = "#aaaa";
 // }
 // plus.onclick = dar;
+  function add(animal) {
+    console.log("test", animal);
+  }
+  add("huuy");
