@@ -205,7 +205,16 @@
 //   body.style.backgroundColor = "#aaaa";
 // }
 // plus.onclick = dar;
-  function add(animal) {
-    console.log("test", animal);
-  }
-  add("huuy");
+
+// function add(animal) {
+//   console.log("test", animal);
+// }
+// add("huuy");
+
+// let command = "";
+// while (command !== "nakii") {
+//   command = prompt("minii ner hen be")
+// alert("buruu BAINA " + command + " bi bish");
+
+// }
+// console.log("bye");
