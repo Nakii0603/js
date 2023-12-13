@@ -1,6 +1,6 @@
 // Academy303
 
-// let tsag = 55;
+// let tsag = 247;
 // let honog = 24 ;
 // console.log((tsag / honog).toFixed(0));
 
@@ -110,22 +110,22 @@
 // const btn = document.getElementsByTagName("button");
 
 // let ner = "saraa";
-// let age = 1;
+// let age = 17.9;
 // let who;
 // if (age >= 18) {
 //   who = "man";
 //   console.log("asd");
 //   who === "man"
-//     ? console.log(ner + "orj bolnooo")
-//     : console.log(ner + " orj bolohguie");
+//     ? console.log(ner + " orj bolnooo ")
+//     : console.log(ner + " orj bolohguie ");
 // } else {
 //   who = "child";
 // }
 // who === "man"
-//   ? console.log(ner + "orj bolnooo")
+//   ? console.log(ner + " orj bolnooo ")
 //   : console.log(ner + " orj bolohguie");
 
-// let dun = 46
+// let dun = 110;
 
 // switch (true) {
 //     case dun > 100: console.log("dun buruu bn");
@@ -218,3 +218,63 @@
 
 // }
 // console.log("bye");
+// nums = [2, 7, 11, 15], target = 9
+// function twoSum(nums, target) {
+//     for (let i = 0; i < nums.length; i++) {
+//         for (let j = i + 1; j < nums.length; j++) {
+//             if (nums[i] + nums[j] === target) {
+//                 return [i, j];
+//             }
+//         }
+//     }
+// }
+// let camera = [
+//     {
+//         ner: "hfe632",
+//         price: "499$",
+//     }
+// ]
+// console.log(ner);
+// console.log(ner + "ene bara" + price + "bolj hymdarlaa");
+
+// try {
+//     let a = prompt("too oruulna uu")
+//     console.log(a + " baina");
+
+// } catch(error) {
+//     if (error.messege === 'RefereceError: prompt is not defined'){
+//         console.log("ene code browser der ajldna");
+//     }
+// }
+
+// for (let i = 2; i <= 1000; i++) {
+//     if (primeNum(i) === true) console.log(i + "is prime number"); {
+//     }
+// }
+// function primeNum(num) {
+//     let PrimeNum = true;
+//     for (let x = 2; x < num; x++) {
+//         if (num % x === 0){
+//             PrimeNum = false;
+//         break;
+//         }
+//     }
+//     return PrimeNum
+// // }
+// let arr = [];
+// for (let i = 0; i < 10; i++) {
+//     let num = Math.random() * 100;
+//     num = Math.floor(num)
+//     arr.push(num)
+// }
+// console.log(arr);
+// let minNum = 100;
+// let minNumIndex = -1;
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] < minNum) {
+//         minNum = arr[i];
+//         minNumIndex = [i];
+//     }
+// }
+// console.log("hamgiin baga too  "+ minNum + " tooni index n " + minNumIndex);
