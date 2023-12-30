@@ -271,10 +271,10 @@
 // let minNum = 100;
 // let minNumIndex = -1;
 
-// for (let i = 0; i < arr.length; i++) {
-//     if (arr[i] < minNum) {
-//         minNum = arr[i];
-//         minNumIndex = [i];
-//     }
-// }
-// console.log("hamgiin baga too  "+ minNum + " tooni index n " + minNumIndex);
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < minNum) {
+        minNum = arr[i];
+        minNumIndex = [i];
+    }
+}
+console.log("hamgiin baga too  "+ minNum + " tooni index n " + minNumIndex);
